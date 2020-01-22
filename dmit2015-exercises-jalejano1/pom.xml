@@ -46,8 +46,12 @@
 			<version>${mockito-core.version}</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.20</version>
+		</dependency>
     </dependencies>
-
     <build>
         <finalName>dmit2015-exercises-jalejano1</finalName>
         <plugins>
